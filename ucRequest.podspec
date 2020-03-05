@@ -6,8 +6,7 @@ Pod::Spec.new do |s|
   s.authors = {"lj-1110"=>"214180063@qq.com"}
   s.homepage = "https://github.com/lj-1110/ucRequest"
   s.description = "TODO: Add long description of the pod here."
-  s.source = { :path => '.' }
-
+  s.source = { :git => 'https://github.com/lj-1110/ucRequest.git', :tag => s.version.to_s }
   s.ios.deployment_target    = '8.0'
   s.ios.vendored_framework   = 'ios/ucRequest.framework'
 end
