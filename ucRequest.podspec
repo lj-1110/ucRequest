@@ -9,4 +9,8 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/lj-1110/ucRequest.git', :tag => s.version.to_s }
   s.ios.deployment_target    = '8.0'
   s.ios.vendored_framework   = 'ios/ucRequest.framework'
+  s.dependency 'JKCategories'
+  s.dependency 'AFNetworking'
+  s.dependency 'FCUUID'
+  s.dependency 'MJExtension'
 end
