@@ -1,6 +1,0 @@
-framework module ucRequest {
-  umbrella header "ucRequest-umbrella.h"
-
-  export *
-  module * { export * }
-}
